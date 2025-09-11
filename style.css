@@ -1,0 +1,116 @@
+.flex-container.one{
+    display: flex;
+    height: 90vh;
+    background-color: #E85B07;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-style: italic;
+     font-size: 4rem;
+     margin-bottom: 0;
+     color: white;
+    }
+.flex-item-one p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+    
+img{
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        width: 50%;
+    }
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #E83407;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+div.intro{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+.intro p{
+    color: #E83407;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15%;
+    text-align: center;
+}
+.skills p{
+    color: #E83407;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.web{
+    margin-bottom: 15%;
+}
+.app{
+    margin-bottom: 15%;
+}
+.ui{
+    margin-bottom: 25%;
+}
+h3{
+    color: #E85B07;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    color: wheat;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #E85B07;
+    text-align: center;
+}
+.footer h3{
+    color: white;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color: white;
+}
+.footer a{
+    font-size: 2rem;
+    color: white;
+    margin-left: 1rem;
+}
+.footer a:hover{
+    color: wheat;
+}
+.footer p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+@media (min-width: 960px){
+ 
+    div.intro{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+    .skills{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+}
+   
