@@ -53,6 +53,9 @@ div.intro{
     color: #E83407;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.unity{
+    border: #E85B07 1.5px solid;
+}
 .web{
     margin-bottom: 15%;
 }
@@ -60,14 +63,12 @@ div.intro{
     margin-bottom: 15%;
 }
 .ui{
+    padding-top: 2rem;
     margin-bottom: 25%;
 }
 h3{
     color: #E85B07;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-hr{
-    color: wheat;
 }
 .footer{
     width: 100%;
@@ -86,7 +87,7 @@ span{
 .footer a{
     font-size: 2rem;
     color: white;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 .footer a:hover{
     color: wheat;
@@ -94,6 +95,7 @@ span{
 .footer p{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
     
 @media (min-width: 960px){
@@ -105,12 +107,48 @@ span{
     margin-top: 15%;
     margin-bottom: 0%;
 }
-    .skills{
-    width: 20%;
-    margin-left: 40%;
+.skills{
+    margin: 0%;
+    width: 100%;
     margin-top: 10%;
     text-align: center;
 }
 
+.web{
+    float: left;
+    width: 27%;
+    
+    margin-left: 7.5%;
+    margin-top: 4%;
+    border: #E85B07 1.5px solid;
+
 }
+
+.app{
+    float: left;
+    width: 27%;
+    
+    margin-left: 2.5%;
+    margin-top: 4%;
+    border: #E85B07 1.5px solid;
+}
+.ui{
+    float: left;
+    width: 27%;
+    margin: 0%;
+    margin-left: 2.5%;
+    margin-top: 4%;
+    border: #E85B07 1.5px solid;
+    padding-top: 2%;
+}
+.intro p {
+    margin-bottom: 8%;
+}
+
+.footer{
+    clear: both;
+}
+}
+   
+
    
